@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: url('tahoma.ttf') format('truetype');
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.cLogo{
+    display: flex;
+    align-items: center;
+}
+.menu .img-logo{
+    width: 40px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.menu .logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.menu .navbar ul{
+    list-style: none;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li .pa{
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+    display: block;
+}
+.menu .navbar ul li .pa:hover{
+    border-bottom: 4px solid #7b24b6;
+}
+
+
+.menu .navbar ul li .btn-IniciarSesion{
+    display: inline-block;
+    background-color: #d5c6dc;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #572975;
+    margin-right: 20px;
+}
+.menu .navbar ul li .btn-IniciarSesion:hover{
+    background-color: #bc73dd;
+    color: #ffffff;
+}
+.menu .navbar ul li  .btn-Registro{
+    display: inline-block;
+    background-color: #7b24b6;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+   
+}
+.menu .navbar ul li  .btn-Registro:hover{
+    background-color: #a73fec;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
