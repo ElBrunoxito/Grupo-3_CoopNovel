@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: url('tahoma.ttf') format('truetype');
+  }
+@font-face{
+    font-family:'Syncopate';
+    src:url('Syncopate-Bold.ttf') format('OTF'),
+        url('Syncopate-Regular.ttf') format('OTF');
+}
+
+body{
+    background-color: rgb(0, 168, 193);
+}
+h1{
+    font-family:"tahoma";
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+h3{
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    text-align: left;
+}
+p{
+    width: 500px;
+    font-family:"tahoma";
+    padding: 20px;
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+.datos{
+    text-align: center;
+}
+a{
+    font-family:'Syncopate';
+    color: white;
+}
+.piedepagina{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
