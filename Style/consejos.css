@@ -68,6 +68,8 @@ header{
 
 }
 
+
+
 .menu .navbar ul{
     list-style: none;
     display: inline-flex;
@@ -524,6 +526,7 @@ background: var(--avatar-female-2, url(<path-to-image>), lightgray 50% / cover n
     padding: 10px 25px;
     position: relative;
     transform: translate(150px,50px);
+    cursor: pointer;
 }
 
 .perfil {
